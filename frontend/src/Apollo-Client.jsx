@@ -1,7 +1,7 @@
 import { ApolloClient, HttpLink, InMemoryCache, gql } from "@apollo/client";
 
 const HTTPLINK = new HttpLink({
-  uri: "http://localhost:3000/graphql",
+  uri: "https://user-authorization-graphql-1.onrender.com/graphql",
 });
 
 export const client = new ApolloClient({
